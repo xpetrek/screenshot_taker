@@ -20,4 +20,18 @@ Optional:
 *  -w WIDTH, --width     Width of the screenshot area!
 *  -v HEIGHT, --height   Height of the screenshot area!
 
+## Example: 
+```
+//Program will take 90 whole display screenshots 
+./test.exe -p 90
+//Program will take 90 screenshots with window 400 by 400 with an offset of 100 from top and left. 
+./test.exe -p 90 -l = 100 -t = 100 -w = 400 -v = 400
+
+//Program will take 90 whole display screenshots 
+python ./test.py -p 90
+//Program will take 90 screenshots with window 400 by 400 with an offset of 100 from top and left. 
+python ./test.py -p 90 -l = 100 -t = 100 -w = 400 -v = 400
+
+
+```
 In case that all the optional parameters are not set, the application will take screenshot of the whole window.
