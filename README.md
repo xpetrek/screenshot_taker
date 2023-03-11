@@ -25,14 +25,14 @@ Optional:
 ## Example: 
 ```
 //Program will take 90 whole display screenshots 
-./test.exe -p 90
+./screenshoter.exe -p 90
 //Program will take 90 screenshots with window 400 by 400 with an offset of 100 from top and left with 500ms delay in between screenshots and it will save the images to the MYSCREENSHOTS directory
-./test.exe -p 90 -l=100 -t=100 -w=400 -v=400 -s=500 -d=MYSCREENSHOTS
+./screenshoter.exe -p 90 -l=100 -t=100 -w=400 -v=400 -s=500 -d=MYSCREENSHOTS
 
 //Program will take 90 whole display screenshots 
-python ./test.py -p 90
+python ./screenshoter.py -p 90
 //Program will take 90 screenshots with window 400 by 400 with an offset of 100 from top and left. 
-python ./test.py -p 90 -l = 100 -t = 100 -w = 400 -v = 400
+python ./screenshoter.py -p 90 -l = 100 -t = 100 -w = 400 -v = 400
 
 
 ```
